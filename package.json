@@ -1,0 +1,15 @@
+{
+  "name": "quick-typescript-test",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run --dir test",
+    "test-watch": "vitest --dir test",
+    "test-coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^3.0.7",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.7"
+  }
+}
